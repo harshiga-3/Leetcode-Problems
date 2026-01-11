@@ -9,13 +9,13 @@ class Solution {
             if(nums[i]==1)
             {
                 c++;
-
+                 
             }
             else{
                 c=0;
             }
-
-            m=Math.max(m,c);
+ m=Math.max(m,c);
+            
         }
 
         return m;
