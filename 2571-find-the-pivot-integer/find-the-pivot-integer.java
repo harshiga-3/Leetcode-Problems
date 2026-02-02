@@ -10,11 +10,13 @@ class Solution {
       for(int i=n;i>=1;i--)
       {
         right+=i;
-        sum-=i;
-        if(sum +i==right)
+        
+        if(sum ==right)
         {
 return i;
         }
+        sum-=i;
+    
 
       }
 
